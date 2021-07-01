@@ -1,0 +1,27 @@
+.content-landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/landing.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: black;
+    margin-bottom: 25px;
+}
+
+.btn-landing{
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+
+    text-decoration: none;
+}
