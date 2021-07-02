@@ -18,7 +18,40 @@
     align-items: center;
 }
 
+.title-app{
+    margin-left: 10px;
+}
+
 .content-inputs{
     display: flex;
     flex-wrap: wrap;
+}
+
+.div-search{
+    margin-left: 30px
+}
+
+.div-select{
+    margin-left: 20px;
+}
+
+@media ( max-width: 600px){
+    .content-inputs{
+        justify-content: center;
+        align-items: center
+    }
+
+    .title-app{
+        display: none
+    }
+
+    .div-select{
+        margin-left: -45px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .content-nav{
+        padding-left: 20px
+    }
 }
